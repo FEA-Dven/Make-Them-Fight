@@ -1,0 +1,23 @@
+<!--index.wxml-->
+  <view class="box" style="height:{{windowHeight+'px'}}">
+  <view class="title">Make Them Fight</view>
+  <view class="userinfo">
+      <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <view class="normal">
+    <button class="levelone" data-num="2" bindtap="selectlevel">LEVEL1</button>
+  </view>
+  <view class="leveltwodiv">
+    <button class="leveltwo" data-num="3" bindtap="selectlevel">LEVEL2</button>
+  </view>
+  <view class="levelthreediv">
+    <button class="levelthree" data-num="4" bindtap="selectlevel">LEVEL3</button>
+  </view>
+  <!-- <view class="levelfourdiv">
+    <button class="levelfour" data-num="5" bindtap="selectlevel">LEVEL4</button>
+  </view>
+  <view class="levelfivediv">
+    <button class="levelfive" data-num="6" bindtap="selectlevel">LEVEL5</button>
+  </view> -->
+  </view>

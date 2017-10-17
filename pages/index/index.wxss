@@ -1,0 +1,116 @@
+/**index.wxss**/
+.box{
+  width:100%;
+  box-sizing: border-box;
+  background-color:#efe9c4;
+  position:relative;
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top:20px;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+.title{
+	color:#000;
+	font-size:24px;
+	width:100%;
+	text-align:center;
+	font-weight:bold;
+	text-align:center;
+}
+.normal{
+	width: 80%;
+	float: left;
+	margin-left: 10%;
+	height: 30px;
+	position: absolute;
+	top:200px;
+	left: 0;
+}
+.levelone{
+	background-color: #F4606C;
+	font-size: 16px;
+	font-weight:bold;
+	height: 30px;
+	line-height: 30px;
+}
+.leveltwodiv{
+	width: 80%;
+	float: left;
+	margin-left: 10%;
+	height: 30px;
+	position: absolute;
+	top:270px;
+	left: 0;
+}
+.leveltwo{
+	background-color: #19CAAD;
+	font-size: 16px;
+	font-weight:bold;
+	height: 30px;
+	line-height: 30px;
+}
+.levelthreediv{
+	width: 80%;
+	float: left;
+	margin-left: 10%;
+	height: 30px;
+	position: absolute;
+	top:340px;
+	left: 0;
+}
+.levelthree{
+	background-color: #815BFF;
+	font-size: 16px;
+	font-weight:bold;
+	height: 30px;
+	line-height: 30px;
+}
+.levelfourdiv{
+	width: 80%;
+	float: left;
+	margin-left: 10%;
+	height: 30px;
+	position: absolute;
+	top:330px;
+	left: 0;
+}
+.levelfour{
+	background-color: #D1BA74;
+	font-size: 16px;
+	font-weight:bold;
+	height: 30px;
+	line-height: 30px;
+}
+.levelfivediv{
+	width: 80%;
+	float: left;
+	margin-left: 10%;
+	height: 30px;
+	position: absolute;
+	top:380px;
+	left: 0;
+}
+.levelfive{
+	background-color: #8CC7B5;
+	font-size: 16px;
+	font-weight:bold;
+	height: 30px;
+	line-height: 30px;
+}

@@ -1,0 +1,14 @@
+<!--index.wxml-->
+  <view class="box" style="height:{{windowHeight+'px'}}">
+  <view class="title">Game Over</view>
+  <view  class="scorediv" >
+    <view class="word">
+      score
+    </view>  
+    <view class="score">
+      {{score}}
+    </view>
+  </view>
+  <button bindtap="tryagain" class="tryagain">TRY AGAIN</button>
+  <button bindtap="backhome" class="backhome">BACK HOME</button>
+  </view>

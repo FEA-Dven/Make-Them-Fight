@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="box" style="height:{{windowHeight+'px'}}">
+<view class="score">{{score}}</view>  
+  <canvas disable-scroll="true" bindtouchstart="touchStart" bindtouchmove="touchMove" bindtouchend="defend" canvas-id="{{'canvas'+index}}" wx:key="index" wx:for="{{canvasData}}" class="ground" style="height:{{groundHeight+'px'}};background-color:{{item.bgc}}" data-index="{{index}}">
+    <audio id="{{'myAudio'+index}}" src="http://192.168.88.170/eat.mp3" controls="false" class="hide"></audio>
+  </canvas> 
+</view>
